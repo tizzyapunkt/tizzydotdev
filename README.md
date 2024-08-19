@@ -1,1 +1,1 @@
-# tizzydotdev
+# tizzy.dev
