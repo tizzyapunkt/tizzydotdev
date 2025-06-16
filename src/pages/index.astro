@@ -1,25 +1,29 @@
 ---
-const title = "tizzy.dev"
+import Layout from '../layouts/Layout.astro';
+import '../styles/global.css';
 ---
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{title}</title>
-</head>
 
-<body>
-    <h1 class="center">tizzy.dev | consulting · development · projects · personal (b)log | coming soon </h1>
-</body>
-
-</html>
-
-<style>
-    body {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-</style>
+<Layout title="tizzy.dev">
+    <div class="max-w-prose mx-auto px-4 py-12">
+        <div class="prose prose-lg">
+            <p class="text-text-200 leading-relaxed">
+                Hey, I'm Tizian — a software engineer who cares about architecture, clarity, and clean code. This blog is where I share lessons from the field: frontend patterns, cloud infrastructure insights, and real-world tradeoffs — with a personal, professional tone.
+            </p>
+            
+            <div class="mt-8 flex flex-wrap gap-4">
+                <a href="/blog" class="inline-flex items-center px-4 py-2 bg-primary-100 text-primary-300 rounded-lg hover:bg-primary-200 transition-colors">
+                    Browse all posts
+                </a>
+                <!-- <a href="/about" class="inline-flex items-center px-4 py-2 bg-bg-200 text-text-200 rounded-lg hover:bg-bg-300 transition-colors">
+                    Learn more about me
+                </a> -->
+                <!-- <a href="/tags" class="inline-flex items-center px-4 py-2 bg-bg-200 text-text-200 rounded-lg hover:bg-bg-300 transition-colors">
+                    Explore tags
+                </a>
+                <a href="/rss.xml" class="inline-flex items-center px-4 py-2 bg-bg-200 text-text-200 rounded-lg hover:bg-bg-300 transition-colors">
+                    RSS
+                </a> -->
+            </div>
+        </div>
+    </div>
+</Layout>

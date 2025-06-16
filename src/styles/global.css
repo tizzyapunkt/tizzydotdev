@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary-100: #b0a2ff;
+  --color-primary-200: #9286e0;
+  --color-primary-300: #4e489a;
+
+  --color-accent-100: #7a67e6;
+  --color-accent-200: #fff9ff;
+
+  --color-text-100: #333333;
+  --color-text-200: #5c5c5c;
+
+  --color-bg-100: #f5f5ff;
+  --color-bg-200: #ebebf5;
+  --color-bg-300: #c2c2cc;
+
+  --font-family-sans: Inter, system-ui, sans-serif;
+  --font-family-mono: JetBrains Mono, monospace;
+}
